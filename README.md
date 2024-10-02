@@ -11,23 +11,6 @@
 ![Local Image](./assets/Spider2.png)
 
 
-### Why Spider 2.0?
-
-In 2018, we introduced [Spider 1.0](https://yale-lily.github.io/spider), [SParC](https://yale-lily.github.io/sparc), and [CoSQL](https://yale-lily.github.io/cosql) as part of the Yale Semantic Parsing and Text-to-SQL Challenge Series, attracting over 300 submissions from leading research labs worldwide.
-
-Now, in the era of Large Language Models (LLMs), we present Spider 2.0 to advance code generation, particularly text-to-SQL capabilities.
-
-This new benchmark offers a more realistic and challenging test of LLMs' performance on complex enterprise-level text-to-SQL workflows, involving complex data environments (e.g., >3000 columns), multiple SQL dialects (e.g., BigQuery, Snowflake), and diverse operations (e.g., transformation, analytics).
-
-Notably, as shown below, even the most advanced LLMs, including GPT-4, solve only 6.0% of Spider 2.0 tasks, compared to 86.6% on Spider 1.0 and 57.4% on BIRD, highlighting the significant challenges posed by Spider 2.0.
-
-|                 | Spider 1.0 dev | Spider 1.0 test | BIRD test | Spider 2.0 |
-| --------------- | -------------- | --------------- | --------- | ---------- |
-| DailSQL + GPT-4 | 82.4           | 86.6            | 57.4      | 6.0        |
-| CodeS-7B        | 85.4           | -               | 59.3      | 1.3        |
-
-
-
 
 ## 🚀 Quickstart
 
